@@ -1,5 +1,8 @@
 {
   "name": "koa-server-api",
   "version": 2,
-  "builds": [{ "src": "/index.js", "use": "@now/node-server" }]
+  "builds": [{
+    "src": "*/*.js", 
+    "use": "@now/node-server"
+  }]
 }
