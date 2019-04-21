@@ -1,0 +1,22 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-basic-auth": "^4.0.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.3"
+  }
+}
